@@ -2,11 +2,6 @@
 <div>
     <nav class="navbar navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="/">Adtende</a>
-        <tasty-burger-button :type="spring"
-            
-            :isActive="true"
-            :size="xl"
-            />
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button> -->
@@ -44,14 +39,8 @@
 </template>
 
 <script>
-import {TastyBurgerButton} from 'vue-tasty-burgers';
-import 'vue-tasty-burgers/dist/vue-tasty-burgers.css';
-
 export default {
   name: 'Header',
-  components: {
-    'tasty-burger-button': TastyBurgerButton
-  },
   data () {
     return {
       

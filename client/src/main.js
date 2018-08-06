@@ -3,12 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import * as TastyBurgerButton from 'vue-tasty-burgers';
-import 'vue-tasty-burgers/dist/vue-tasty-burgers.css';
 
 
 Vue.config.productionTip = false
-Vue.use(TastyBurgerButton);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
